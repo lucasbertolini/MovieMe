@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>||MovieMe||</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <img src="./images/background.jpg" alt="nav image" class="header_img" />
+      <nav class="header_nav">
+        <p class="nav_item">Filmes</p>
+        <p class="nav_item">Series</p>
+      </nav>
+    </header>
+    <div class="inputContainer">
+      <input type="text" id="inputName" />
+      <input type="submit" value="Pesquisar" />
+    </div>
+    <div class="resultContainer" id="result"></div>
+    <script src="./main.js"></script>
+  </body>
 </html>
